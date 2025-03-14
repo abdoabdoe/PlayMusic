@@ -6,14 +6,13 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Scanner;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
 public class Main {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
         String music;
-        System.out.println("Put the path of the song ");
+        System.out.println("Put the path of your song ");
         music = input.nextLine();
         String filePath = music;
 
